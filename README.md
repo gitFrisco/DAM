@@ -1,6 +1,8 @@
 # DAM
 Detach Attach Manager for tmux (remote via `ssh`) sessions running in the BASH shell.
 
+## PROLOGUE (Thank Euripides for Deus ex machina)
+
 source the dam.sh file into your shell to make the dam function useable:
 $`source dam.sh`
 
