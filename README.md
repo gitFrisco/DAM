@@ -19,10 +19,11 @@ note, `dam` does not support multi-word session names at this time. If you can't
 $`dam <tab>`<br />
 which gives you a shi^wboat load more than you expected... at least, if you are a regular `ssh` user with at least a few entries in your `~/.ssh/known_hosts` file, this is because `dam` also *knows* about `ssh` and will create / connect to `tmux` sessions on remote hosts. Since were on the topic of remote hosts; how do you use `dam` to connect to a remote host??? well, I am glad you asked. Any argument to `dam` that contains a forward slash (or solidus, for you UTF-8 nomenclature geeks) will have the pre-slash portion treated as a hostname, including your current host environment. Even an argument which is a lone slash works to connect to you local tmux session via ssh (assuming your localhost is running the sshd service), I am not sure there is much use for that, but there it is...<br />
 $`dam /`<br />
-or<br />
+or, more likely, something similar to<br />
 $`dam somehost.example.com/`<br />
 you can still attach to distinct sessions on the remote host by postpending the session name, as in<br />
-$`dam somehost.example.com/dev`
+$`dam somehost.example.com/dev`<br />
+*NB* completing remote session names requires an ssh connection, which can be annoying unless you have identity keys setup.
 
 ## EPILOGUE
 Thats mostly it, the real convenience starts when you load your `ssh-agent` with an identity key and you can then `<tab>` complete your way to a host/session, because hey, who wants to memorize and type all that every time you need to connect?!?
