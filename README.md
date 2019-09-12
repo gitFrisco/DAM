@@ -15,4 +15,4 @@ Should you want to create additional sessions (and you should) with meaningful n
 $`dam fubar`<br />
 dam does not support multi-word session names at this time. If you can't remember what session names you had, simply hit the tab key after the `dam` command:<br />
 $`dam <tab>`<br />
-which gives you a sh^wboat load more than you expected... this is because `dam` also *knows* about `ssh` and will start `tmux` sessions on remote hosts.
+which gives you a shi^wboat load more than you expected... at least, if you are a regular `ssh` user with at least a few entries in your `~/.ssh/known_hosts` file, this is because `dam` also *knows* about `ssh` and will start `tmux` sessions on remote hosts.
