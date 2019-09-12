@@ -11,7 +11,8 @@ The simplest invocation is:
 $`dam`
 which attaches to the tmux session named *mine* on your current host. If the *mine* session does not exist it will be created, if it already exists `dam` will detach the session from any other terminal before attaching to it.
 
-Should you want to create additional sessions (and you should) with meaningful names, simply append the session name to the `dam` command, *a la*:<br>
-$`dam fubar`
-dam does not support multi-word session names at this time. If you can't remember what session names you had, simply hit the tab key after the `dam` command:
-$`dam <tab>`
+Should you want to create additional sessions (and you should) with meaningful names, simply append the session name to the `dam` command, *a la*:<br />
+$`dam fubar`<br />
+dam does not support multi-word session names at this time. If you can't remember what session names you had, simply hit the tab key after the `dam` command:<br />
+$`dam <tab>`<br />
+which gives you a sh^wboat load more than you expected... this is because `dam` also *knows* about `ssh` and will start `tmux` sessions on remote hosts.
