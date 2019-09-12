@@ -1,5 +1,5 @@
 # DAM
-Detach Attach Manager for tmux (remote) sessions running in the BASH shell.
+Detach Attach Manager for tmux (remote via `ssh`) sessions running in the BASH shell.
 
 source the dam.sh file into your shell to make the dam function useable:
 $`source dam.sh`
@@ -22,4 +22,5 @@ $`dam somehost.example.com/`<br />
 you can still attach to distinct sessions on the remote host by postpending the session name, as in<br />
 $`dam somehost.example.com/dev`
 
+## EPILOGUE
 Thats mostly it, the real convenience starts when you load your `ssh-agent` with an identity key and you can then `<tab>` complete your way to a host/session, because hey, who wants to memorize and type all that every time you need to connect?!?
