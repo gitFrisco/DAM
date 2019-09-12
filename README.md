@@ -9,4 +9,4 @@ The dam function interacts with your `bash` environment; the files `~/.ssh/confi
 
 The simplest invocation is:<br>
 $`dam`<br>
-which attaches to the tmux session named *mine* on your current host.
+which attaches to the tmux session named *mine* on your current host. If the *mine* session does not exist it will be created, if it already exist `dam` will detach the session from any other terminal before attaching to it.
