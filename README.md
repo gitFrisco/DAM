@@ -7,7 +7,7 @@ source the dam.sh file into your shell to make the dam function useable:<br />
 $`source dam.sh`
 
 ## USE
-The dam function interacts with your `bash`<sup>[1](#bash)</sup> environment; the files `~/.ssh/config`<sup>[2](#ssh_config)</sup> and `~/.ssh/known_hosts`<sup>[3](#known_hosts)</sup> and the commands `ssh`<sup>[4](#ssh)</sup> and `tmux`<sup>[5](#tmux)</sup> to make your command line terminal a stateful place to be productive.
+The dam function interacts with your `bash`<sup>[1](#bash)</sup> environment; the files `~/.ssh/config`<sup>[2](#ssh_config)</sup> and `~/.ssh/known_hosts`<sup>[3](#known_hosts)</sup> along with the commands `ssh`<sup>[4](#ssh)</sup> and `tmux`<sup>[5](#tmux)</sup> to make your command line terminal a stateful place to be productive.
 
 The simplest invocation is:<br />
 $`dam`<br />
