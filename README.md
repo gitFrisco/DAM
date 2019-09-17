@@ -1,5 +1,5 @@
 # DAM
-Detach Attach Manager for tmux (remote via `ssh`) sessions running in the BASH shell.
+Detach Attach Manager for tmux (local and remote) sessions running in the BASH shell.
 
 ## PROLOGUE (Thank Euripides for Deus ex machina)
 
