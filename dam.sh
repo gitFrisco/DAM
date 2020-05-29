@@ -57,6 +57,7 @@ dam () {
     case "$1" in
         */*)
             [ "$TMUX" ] && tmux rename-window "$1"
+            command ssh $DamHost -O check 2> /dev/null && ( timeout 3 ssh $DamHost exit || ssh $DamHost -O exit );
             command ssh -Aq $DamHost -t "tmux attach -dt $DamSess || tmux new -s $DamSess" 
             [ "$TMUX" ] && tmux set-window-option automatic-rename "on" 1>/dev/null
             ;;
